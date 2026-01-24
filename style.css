@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0f0f14;
+    color: #eaeaea;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #2a2a3a;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header-left h1 {
+    font-size: 2.6rem;
+    color: #ffffff;
+}
+
+.subtitle {
+    color: #9aa4ff;
+    margin: 6px 0;
+}
+
+.contact {
+    font-size: 0.95rem;
+    color: #cfcfcf;
+    margin-top: 8px;
+}
+
+.header-right img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid #9aa4ff;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 35px;
+}
+
+.section h2 {
+    color: #9aa4ff;
+    margin-bottom: 15px;
+    border-left: 4px solid #9aa4ff;
+    padding-left: 10px;
+}
+
+.item h3 {
+    color: #ffffff;
+}
+
+.item span {
+    color: #bdbdbd;
+    font-size: 0.9rem;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-grid span {
+    background: #1c1c28;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    border: 1px solid #2a2a3a;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-right {
+        margin-top: 15px;
+    }
+
+    .skills-grid {
+        justify-content: center;
+    }
+}
